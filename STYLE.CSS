@@ -1,8 +1,11 @@
 * {
     margin: 0px;
 }
-body{
+
+body {
     background-color: whitesmoke;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .all {
@@ -26,11 +29,12 @@ body{
     color: white;
     border-bottom: 2px solid white;
 }
-.all-btuno
-{
+
+.all-btuno {
     display: flex;
     margin: 25px 0px;
 }
+
 .all-button {
     padding: 8px 20px;
     border: 1px solid white;
@@ -38,6 +42,7 @@ body{
     background-color: #101C26;
     color: white;
 }
+
 .all-button-1 {
     padding: 8px 20px;
     background-color: #F0E714;
@@ -45,22 +50,26 @@ body{
     border-radius: 20px;
     border: none;
 }
-.all-2section{
+
+.all-2section {
     color: white;
-  margin-left: 40px;    
+    margin-left: 40px;
 }
-.all-button-2{
-    padding: 8px 20px ;
+
+.all-button-2 {
+    padding: 8px 20px;
     background-color: #F0E714;
     border: none;
     border-radius: 20px;
 }
-.text-h1{
+
+.text-h1 {
     width: 400px;
     margin: 20px 0px;
     font-size: 50px;
 }
-.text-p{
+
+.text-p {
     width: 300px;
     margin: 25px 0xp;
 }
@@ -73,49 +82,60 @@ body{
     border: none;
     color: white;
     border-radius: 20px;
-    gap:10px;
-   
+    gap: 10px;
+
 }
+
 .all-button-4 img {
     width: 20px;
 }
-.flex-text{
+
+.flex-text {
     display: flex;
     text-align: center;
     gap: 30px;
     margin-left: -10px;
 }
-.schochik{
+
+.schochik {
     color: #F0E714;
 }
-.img img{
-   width: 500px;
+
+.img img {
+    width: 500px;
 }
-.fle{
+
+.fle {
     display: flex;
     justify-content: space-between;
 }
-.flex-oxir{
+
+.flex-oxir {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.top img{
+
+.top img {
     width: 500px;
 }
-.top{
+
+.top {
     display: flex;
     padding: 20px;
     justify-content: space-around;
 }
-.h1{
+
+.h1 {
     margin-top: 30px;
 }
-.p{
+
+.p {
     margin: 30px 0px;
 }
-.gravni{
+
+.gravni {
     background-color: #f0e91464;
     color: black;
     width: 80px;
@@ -124,7 +144,8 @@ body{
     border-radius: 20px;
     margin-left: 10px;
 }
-.button-bek{
+
+.button-bek {
     padding: 8px 20px;
     border-radius: 20px;
     background-color: #101C26;
@@ -132,30 +153,36 @@ body{
     color: #F0E714;
     border: none;
 }
-.qq img{
+
+.qq img {
     width: 60px;
 
 }
-.qq{
+
+.qq {
     display: flex;
     align-items: center;
     gap: 20px;
     margin: 20px 0px;
 }
-.d{
+
+.d {
     display: flex;
     align-items: center;
 }
-.text-al{
+
+.text-al {
     text-align: center;
 }
-.gravn{
+
+.gravn {
     background-color: #f0e91448;
-    box-sizing:border-box;
-       margin: 0px 480px;
-       border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0px 480px;
+    border-radius: 10px;
 }
-.box{
+
+.box {
     background-color: white;
     width: 200px;
     padding: 20px;
@@ -163,89 +190,106 @@ body{
     margin: 10px 0px;
 
 }
-.box h5{
+
+.box h5 {
     margin: 10px 0px;
 }
-.flexing{
- display: flex;
- flex-wrap: wrap;
- justify-content: space-evenly;
- margin-top: 30px;
- }
- .gravi{
+
+.flexing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.gravi {
     background-color: #f0e9143a;
     width: 100px;
     padding: 2px;
     border-radius: 10px;
     text-align: center;
- }
- .olal{
+}
+
+.olal {
     margin-top: 30px;
     margin-left: 50px;
- }
- .qw img{  
-   width: 400px;
- }
- .sd{
+}
+
+.qw img {
+    width: 400px;
+}
+
+.sd {
     width: 400px;
     margin: 10px 0px;
- }
- .po{
+}
+
+.po {
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
- }
- .aa{
+}
+
+.aa {
     margin-top: 60px;
- }
- .dd{
+}
+
+.dd {
     background-color: #f0e9144b;
     padding: 3px;
     box-sizing: border-box;
     margin: 0px 460px;
     border-radius: 20px;
- }
- .asss{
+}
+
+.asss {
     margin: 10px 0px;
- }
- .box2{
+}
+
+.box2 {
     background-color: white;
     width: 400px;
     height: 260px;
     text-align: center;
     border-radius: 10px;
     min-width: 35%;
- }
- .box2 p{
+}
+
+.box2 p {
     box-sizing: border-box;
     padding: 2px 50px;
- }
- .overflov{
+}
+
+.overflov {
     display: flex;
     gap: 20px;
     margin-top: 20px;
     overflow: auto;
     padding: 20px;
- }
- .gra{
+}
+
+.gra {
     background-color: #f0e91454;
     width: 130px;
     padding: 3px;
     border-radius: 20px;
     text-align: center;
- }
- .fl{
+}
+
+.fl {
     display: flex;
     gap: 10px;
     margin-top: 20px;
- }
- .fond{
+}
+
+.fond {
     background-color: white;
     padding: 20px;
     display: flex;
     justify-content: space-around;
- }
- .inputo{
+}
+
+.inputo {
     background-color: #101C26;
     width: 400px;
     height: 360px;
@@ -253,25 +297,27 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
- }
- .inputo input{
+}
+
+.inputo input {
     width: 270px;
     height: 30px;
     margin: 17px;
     background-color: #101C26;
     color: white;
     border: none;
-    border-bottom: 2px solid white ;
- }
- .button-input{
+    border-bottom: 2px solid white;
+}
+
+.button-input {
     padding: 8px 30px;
     border-radius: 20px;
     background-color: #F0E714;
     border: none;
     margin-left: -170px;
- }
+}
 
- .oxirw{
+.oxirw {
     background-color: #101C26;
     width: 100%;
     height: 240px;
@@ -279,30 +325,36 @@ body{
     color: white;
     justify-content: space-evenly;
     align-items: center;
-    
- }
- .oxir-col{
+
+}
+
+.oxir-col {
     color: white;
- }
- .wid{
+}
+
+.wid {
     width: 270px;
     margin: 10px 0px;
- }
- .pow{
+}
+
+.pow {
     display: flex;
     gap: 50px;
- }
- .pho p{
- color: gray;
-       margin: 10px 0px;
+}
 
-  }
-  .az{
+.pho p {
+    color: gray;
+    margin: 10px 0px;
+
+}
+
+.az {
     margin-top: -35px;
-  }
-  .mm{
+}
+
+.mm {
     display: flex;
     color: gray;
     margin: 10px 0px;
     align-items: center;
-  }
+}
