@@ -96,6 +96,10 @@ body {
     gap: 30px;
     margin-left: -10px;
 }
+.box2:hover{
+    margin-top: -5px;
+    cursor: pointer;
+}
 
 .schochik {
     color: #F0E714;
