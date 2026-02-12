@@ -1,6 +1,9 @@
 * {
     margin: 0px;
 }
+body{
+    background-color: whitesmoke;
+}
 
 .all {
     background-color: #101C26;
@@ -143,3 +146,29 @@
     display: flex;
     align-items: center;
 }
+.text-al{
+    text-align: center;
+}
+.gravn{
+    background-color: #f0e91448;
+    box-sizing:border-box;
+       margin: 0px 480px;
+       border-radius: 10px;
+}
+.box{
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+}
+.box h5{
+    margin: 10px 0px;
+}
+.flexing{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-top: 30px;
+ }
